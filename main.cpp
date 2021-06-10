@@ -1,13 +1,11 @@
-#include <iostream>
 #include <ctime>
 #include "TSP.h"
+#include <iostream>
 
-int main() {  
-  /*double** omg = new double*[10000];
-  for (size_t i = 0; i < 10000; i++) {
-    omg[i] = new double[10000]{0};
-  }*/
-  Graph gr;
-  std::cout << "hello";
+int main() {
+  Genetic ga;
+  ACO colony;
+  //colony.antColonyOptimization();
+  ga.geneticAlgorithm();
   return 0;
 }
